@@ -7,6 +7,9 @@
         <element id="directory" name="classes">
           <element id="module-output" name="petStore" />
         </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/Desktop/桌面1/java/IntelliJ IDEA 2021.2.3/lib/junit4.jar" />
+        </element>
       </element>
     </root>
   </artifact>
