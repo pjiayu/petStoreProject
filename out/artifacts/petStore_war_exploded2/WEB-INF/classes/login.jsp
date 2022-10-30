@@ -34,7 +34,8 @@
             <a href="/"><span style="font-size: x-small; color: #00ffff; ">Forgot password?</span></a>
         </div>
         <div>
-            <input type="submit" value="Sign in" class="submit">
+        <button>Sign in</button>
+            <input type="submit" value="提交" class="submit">
         </div>
         <div>
             <span style="font-size: small;float: right ">
