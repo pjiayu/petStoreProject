@@ -23,18 +23,18 @@
         <div class="input-box">
             <i class="iconfont">&#xe682;</i>    <!--字体图标-->
 
-            <input type="text" placeholder="account" />
+            <input type="text" placeholder="Account" />
         </div>
         <div class="input-box">
             <i class="iconfont">&#xe676;</i>      <!--字体图标-->
-            <input type="password" placeholder="password" />
+            <input type="password" placeholder="Password" />
         </div>
 
         <div>
             <a href="/"><span style="font-size: x-small; color: #00ffff; ">Forgot password?</span></a>
         </div>
         <div>
-            <input type="submit" value="sign in" class="submit">
+            <input type="submit" value="Sign in" class="submit">
         </div>
         <div>
             <span style="font-size: small;float: right ">
