@@ -11,7 +11,7 @@ import java.sql.SQLException;
  * @author 皮皮皮
  * @date 2022/10/30 12:28
  */
-public class UerServiceImpl  {
+public class UerService {
 
     private UserDAO userDAO;
     Connection connection;
