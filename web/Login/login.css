@@ -50,3 +50,11 @@ body{
     color: #FFFFFF;
 }
 
+     /*Register*/
+#login-box .txt{
+    background: linear-gradient(to bottom,blue,red);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+

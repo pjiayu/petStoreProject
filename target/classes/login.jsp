@@ -23,15 +23,15 @@
         <div class="input-box">
             <i class="iconfont">&#xe682;</i>    <!--字体图标-->
 
-            <input type="text" placeholder="account" />
+            <input type="text" placeholder="Account" name="account"/>
         </div>
         <div class="input-box">
             <i class="iconfont">&#xe676;</i>      <!--字体图标-->
-            <input type="password" placeholder="password" />
+            <input type="password" placeholder="Password" name="password"/>
         </div>
 
         <div>
-            <a href="/"><span style="font-size: x-small; color: #00ffff; ">Forgot password?</span></a>
+            <a href="Register.jsp"><span style="font-size: x-small; color: aqua; ">Forgot password?</span></a>
         </div>
         <div>
             <input type="submit" value="Sign in" class="submit">
@@ -42,6 +42,17 @@
             <a href="Register.jsp"><span style=" color: aquamarine;">create account?</span></a>
             </span>
         </div>
+
+        <div class="input-box">
+            <%
+
+                String msg=(String)request.getAttribute("msg");
+                if(msg!=null){
+                    out.print("<font color='darkorange'>"+msg+"</font>");
+                }
+            %>
+        </div>
+
     </div>
 
 
