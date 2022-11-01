@@ -13,7 +13,6 @@ public class User {
     private String account;
     private Cart cart;
 
-
     public User() {
     }
 
@@ -75,6 +74,12 @@ public class User {
 
     public void setAccount(String account) {
         this.account = account;
+    }
+
+    public User(String account,String password,String name){
+        this.account=account;
+        this.password=password;
+        this.name=name;
     }
 
     public User(long userID, String name, String address, String password, String account, Cart cart) {

@@ -28,6 +28,4 @@ public class testUserDAO {
         User user = new User(chilun2,"chilun2","浙江","123123","chilun2",null);
         dao.updateUserById(user);
     }
-
-
 }

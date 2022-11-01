@@ -15,7 +15,6 @@ public class ConnUtil {
     public static final String USER = "root";
     public static final String PWD = "pjy20031207" ;
 
-
     private static Connection createConn(){
         try {
             //1.加载驱动
